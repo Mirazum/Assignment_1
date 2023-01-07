@@ -43,7 +43,7 @@ header{
 /* 2nd part_body_part_1st */
 main{
     margin: 0 auto; 
-    max-width: 1180px; 
+    max-width: 1168px; 
 }
 
 /* previous-year */
@@ -77,45 +77,37 @@ ul.failure-list li i{
 }
 
 /* plan body */
- .plan{
-    text-align: center;
-    padding-left: 180px;
-    padding-right: 180px;
-} 
+
 .plan-list{
     display: flex;
     justify-content: space-around; 
+    text-align:center; 
     background: #fff;
-    padding: 55px 30px;
-    margin-bottom: 20px;
-    /* gap: 10px; */
-    
+    margin-top: 65px;
+    padding: 55px 30px; 
+  
 }
-.plan-subtitle{
-    font-weight: 700;
-    color: #151414;
-    padding: 5px;
-}
-
 .plan-title{
     text-align: center;
     color: #151414;
     font-weight: 700;
     font-size: 40px; 
-    padding-bottom: 40px;   
-
+}
+    
+.plan-subtitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    color: #151414;
+    padding: 5px;
+    margin-top: 14px;
 }
 
 .plan-details{
     color: #737272;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 25px;   
 }
-.plan-subtitle{
-    margin-bottom: 20px;
-}
-
-
 /* 3rd part Always positive  */
 .positive {
     background-image: url(images/watch.png), url("images/gradient2.png");
